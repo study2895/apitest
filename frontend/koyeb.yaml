@@ -1,10 +1,2 @@
-name: apitest
-services:
-  - name: web
-    type: web
-    build:
-      context: .
-    port: 8000
-
 build:
   context: ./frontend
